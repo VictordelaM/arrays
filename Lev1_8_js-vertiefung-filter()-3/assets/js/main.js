@@ -1,16 +1,22 @@
 const nums = [1,2,3,4,5,6,10,20,30,40,50,60]
-console.log(nums)
-let newNums = sort()
-let finalNums = newNums.map(multi)
+
+let smallNums = sort()
+let bigNums = sortBig()
 function sort (){
-    let ergebnis = nums.filter(num => num < 20)
-    // console.log(ergebnis)
-    return ergebnis
+    let klein = nums.filter(num => num < 20)
+    return klein
 }
-
-console.log(newNums)
-console.log(finalNums)
-
+function sortBig (){
+    let big = nums.filter(num => num >= 20)
+    return big
+}
 function multi (num) {
-    num * 2
+    return num * 2
 }
+const smallMult = smallNums.map(multi)
+
+
+// console.log(nums)
+console.log(smallNums)
+// console.log(bigNums)
+console.log(smallMult)
