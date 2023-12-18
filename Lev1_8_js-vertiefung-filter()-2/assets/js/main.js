@@ -1,8 +1,7 @@
-const person = ["victor", "wolfgang", "de la Motte"]
-const friends = ["dario", "Toni", "Justin"]
-const favoriteFoods = ["Tacos", "enchiladas", "pizza"]
-
-
+const person = ["victor", "wolfgang", "de la Motte", "dario", "Toni", "Justin", "Tacos", "enchiladas", "pizza"]
 console.log(person)
-console.log(friends)
-console.log(favoriteFoods)
+function sort (){
+    let ergebnis = person.filter(wort => wort.length >= 6)
+    console.log(ergebnis)
+}
+sort()

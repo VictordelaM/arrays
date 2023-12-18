@@ -1,8 +1,2 @@
-const person = ["victor", "wolfgang", "de la Motte"]
-const friends = ["dario", "Toni", "Justin"]
-const favoriteFoods = ["Tacos", "enchiladas", "pizza"]
+const heroArr = ["Superman", "Batman", undefined, , "Wonder Woman", "Spider-Man", "Black Widow", "Iron Man", "Thor", "Catwoman", , null];
 
-
-console.log(person)
-console.log(friends)
-console.log(favoriteFoods)
