@@ -1,0 +1,12 @@
+let array = [23, 54, 75]
+console.log(array)
+array.push(80, 90, 100, 110, 120)
+console.log(array)
+array.unshift(1, 2, 3, 4, 5)
+console.log(array)
+array.pop()
+array.pop()
+console.log(array)
+array.shift()
+array.shift()
+console.log(array)
